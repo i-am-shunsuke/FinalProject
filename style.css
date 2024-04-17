@@ -49,13 +49,13 @@ a:hover{
 }
 .container p{
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   /* line-height: 3px; */
 }
 .container p>a{
   font-weight: bolder;
 }
-.container .link-github{
+.container > .link-github{
   display: block;
   border-radius: 10px;
   font-size: 2rem;
@@ -361,38 +361,60 @@ nav ul li:nth-child(6){
   border: solid lightgray 3px;
 }
 
-
-
-
-
 /* footer */
 .page-footer{
   background: #CC9966;
   margin: 0;
   padding: 0;
+  height: 300px;
+  position: relative;
+  /* width: 100%; */
+}
+.page-footer .container{
+  margin: 8px auto;
+  position: absolute;
+  width: 100%;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.page-footer .container > p {
+  font-size: 1.2rem;
 }
 .page-footer .container ul{
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   list-style: none;
+  padding: 0;
+  margin: 0 auto;
 }
 .page-footer .container ul li{
-  background: white;
+  /* background: white; */
   color: #CC9966;
-  border-radius: 10px;
+  /* padding: 15px; */
+  /* width: 30px; */
+  /* border-radius: 10px; */
+  margin: 10px 20px;
 }
 .page-footer .container ul li a{
   background: white;
   color: #CC9966;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
   border-radius: 10px;
   /* width: calc(100%/4); */
 }
 .page-footer .container ul li a:hover{
   background-color: #e4e4e4;
+  /* border-radius: 10px; */
 }
 .page-footer .container ul li .link-github svg{
   fill: #CC9966; 
-  width: 30px;
-  height: 24px;
+  width: 20px;
+  height: 18px;
 }
 
 
