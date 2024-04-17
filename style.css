@@ -265,13 +265,13 @@ nav ul li:nth-child(6){
 /* .profile */
 
 .profile{
-  margin: 0;
+  margin: 0 auto;
   border-image-source: url(images/flower.png);
   padding: 0;
   border-image-slice: 0 0 0 0 fill;
   border-image-width: 0px;
   border-image-repeat: stretch;
-  border-right:10px;
+  /* border-right:10px; */
   height: calc(800px/2);
   position: relative;
 }
@@ -319,6 +319,7 @@ nav ul li:nth-child(6){
 /* #styles */
 #styles{
   margin: 0 auto;
+  padding: 0;
   border-image-source: url(images/flower2.png);
   border-image-slice: 0 0 0 0 fill;
   border-image-width: 0px;
@@ -327,16 +328,37 @@ nav ul li:nth-child(6){
   position: relative;
 }
 #styles>.container{
+  width: 70%;
   position: absolute;
+  top: 35px;
   left: 50%;
   transform: translateX(-50%);
 }
 #styles>.container>h4{
-  font-size: 2.2rem;
+  font-size: 2.5rem;
+  text-align: center;
 }
 #styles>.container ul{
+  list-style: none;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+#styles>.container ul li{
+  font-size: 1.8rem;
+  padding: 15px;
+}
+#styles>.container>a{
+  margin: 8px auto;
+  padding: 5px 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  font-size: 1.3rem;
+  border: solid lightgray 3px;
 }
 
 
