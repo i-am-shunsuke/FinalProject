@@ -12,6 +12,7 @@ html{
   font-size: 100%;
 }
 
+/* body */
 body{
   margin:0;
   padding: 0;
@@ -28,8 +29,6 @@ a{
 a:hover{
   background-color: #e4e4e4;
 }
-
-
 
 /* container */
 .container h1{
@@ -52,7 +51,6 @@ a:hover{
 .container p{
   text-align: center;
   font-size: 1.2rem;
-  /* line-height: 3px; */
 }
 .container p>a{
   font-weight: bolder;
@@ -74,8 +72,8 @@ a:hover{
 }
 .container .link-github svg{
   fill: white; 
-    width: 30px;
-    height: 24px;
+  width: 30px;
+  height: 24px;
 }
 
 /* nav */
@@ -181,9 +179,6 @@ nav ul li:nth-child(6){
   text-align: center;
 }
 
-/* 16:09 youtube https://www.youtube.com/watch?v=244bWyxbd6o*/
-
-
 /* #contribute */
 #main #contribute{
   border-image-source: url(images/contribute.png);
@@ -202,7 +197,6 @@ nav ul li:nth-child(6){
 }
 #main #contribute> .container:nth-child(1){
   box-sizing: border-box;
-  /* width: 900px; */
   width: 80%;
   position: absolute;
   top: 3%;
@@ -221,7 +215,6 @@ nav ul li:nth-child(6){
 }
 #main #contribute >.container:nth-child(2){
   box-sizing: border-box;
-  /* width: 900px; */
   width: 80%;
   position: absolute;
   left: 50%;
@@ -247,13 +240,11 @@ nav ul li:nth-child(6){
 /* #contribute #files */
 #main #contribute #files{
   box-sizing: border-box;
-  /* width: 900px; */
   width: 80%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   top: 65%;
-  /* bottom: 0; */
   text-align: center;
   height: 100%;
   margin-top: 30px;
@@ -267,7 +258,6 @@ nav ul li:nth-child(6){
 }
 
 /* .profile */
-
 .profile{
   margin: 0 auto;
   border-image-source: url(images/flower.png);
@@ -275,7 +265,6 @@ nav ul li:nth-child(6){
   border-image-slice: 0 0 0 0 fill;
   border-image-width: 0px;
   border-image-repeat: stretch;
-  /* border-right:10px; */
   height: calc(750px/2);
   position: relative;
 }
@@ -304,7 +293,6 @@ nav ul li:nth-child(6){
   font-size: 1.8rem;
   padding: 0;
   margin: 15px;
-  /* margin: 10px 25px; */
 }
 .profile>.container> a{
     margin: 8px auto;
@@ -316,10 +304,6 @@ nav ul li:nth-child(6){
     font-size: 1.3rem;
     border: solid lightgray 3px;
 }
-
-
-
-
 
 /* #styles */
 #styles{
@@ -376,7 +360,6 @@ nav ul li:nth-child(6){
   padding: 0;
   height: 310px;
   position: relative;
-  /* width: 100%; */
 }
 .page-footer .container{
   margin: 8px auto;
@@ -396,21 +379,14 @@ nav ul li:nth-child(6){
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
-  /* margin: 0 auto; */
 }
 .page-footer .container ul li{
-  /* background: white; */
   color: #CC9966;
-  /* padding: 15px; */
-  /* width: 30px; */
-  /* border-radius: 10px; */
   margin: 15px auto;
   width: 200px;
 }
 .page-footer .container ul li a{
-
   display: block;
-
   background: white;
   color: #CC9966;
   font-size: 1.2rem;
@@ -418,17 +394,13 @@ nav ul li:nth-child(6){
   width: 100%;
   padding: 15px 10px;
   border-radius: 10px;
-  /* width: calc(100%/4); */
 }
 .page-footer .container ul li a:hover{
   background-color: #e4e4e4;
-  /* border-radius: 10px; */
 }
 .page-footer .container ul li .link-github svg{
   fill: #CC9966; 
-  /* width: 16px; */
   width: 1rem;
-  /* height: 17px; */
   height: 1rem;
 }
 
@@ -436,18 +408,16 @@ nav ul li:nth-child(6){
 
 /* smartphone */
 @media screen and (max-width:600px){
+
   /* #main */
   #main #contribute{
     height: 1270px;
   }
   #main #contribute> .container:nth-child(1){
-    /* width: 80%; */
     top: 5%;
-    height: 100%;
   }
   #main #contribute >.container:nth-child(2){
     top: 39%;
-    height: 100%;
   }
   #main #contribute #files{
     top: 75%;
@@ -463,7 +433,6 @@ nav ul li:nth-child(6){
   .profile>.container{
     top: 17%;
     bottom: 0;
-    height: 100%;
     margin: 0 auto;
   }
   .profile>.container>h4 {
@@ -485,7 +454,6 @@ nav ul li:nth-child(6){
   }
   #styles>.container{
     top: 0;
-    height: 100%;
   }
   #style>.container>h2 {
     font-size: 2.2rem;
@@ -502,11 +470,10 @@ nav ul li:nth-child(6){
 
   /* .page-footer */
   .page-footer{
-    height: 380px;
+    height: 400px;
   }
   .page-footer .container{
     width: 80%;
-    height: 100%;
   }
   .page-footer .container ul li{
     margin: 5px auto;
