@@ -4,6 +4,8 @@
 /* https://pixabay.com/ja/vectors/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-%E3%83%90%E3%83%83%E3%82%AF%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89-5417663/ */
 /* https://pixabay.com/ja/vectors/%E5%9B%BD%E5%A2%83-%E8%91%89%E3%81%A3%E3%81%B1-%E7%B9%81%E6%A0%84%E3%81%99%E3%82%8B-47040/ */
 /* https://www.w3schools.com/cssref/css3_pr_border-image.php */
+/* https://pixelsconverter.com/px-to-rem */
+
 @import url('https://fonts.googleapis.com/css2?family=Junge&family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP&family=Open+Sans:ital,wght@0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');
 
 html{
@@ -109,6 +111,7 @@ nav ul li:nth-child(6){
   background: white;
   margin: 0 auto;
   width: 75%;
+  height: 100%;
 }
 #main #about h2{
   margin: 0 auto;
@@ -123,6 +126,7 @@ nav ul li:nth-child(6){
 }
 #main #about >.container:nth-child(2){
   margin-top: 0;
+  height: 100%;
 }
 #about .container ul{
   display: flex;
@@ -205,7 +209,7 @@ nav ul li:nth-child(6){
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  height: calc(900px / 3);
+  height: 100%;
 }
 #main #contribute> .container:nth-child(1) h2{
   font-size: 2.2rem;
@@ -224,7 +228,7 @@ nav ul li:nth-child(6){
   transform: translateX(-50%);
   top: 30%;
   text-align: center;
-  height: calc(900px / 3);
+  height: 100%;
 }
 #main #contribute> .container:nth-child(2) h3{
   font-size: 2.2rem;
@@ -248,10 +252,10 @@ nav ul li:nth-child(6){
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  /* top: 60%; */
-  bottom: 0;
+  top: 65%;
+  /* bottom: 0; */
   text-align: center;
-  height: calc(900px / 3);
+  height: 100%;
   margin-top: 30px;
 }
 #main #contribute #files> .container h3{
@@ -278,6 +282,7 @@ nav ul li:nth-child(6){
 .profile>.container{
   width: 70%;
   position: absolute;
+  height: 100%;
   top: 5%;
   left: 50%;
   transform: translateX(-50%);
@@ -329,6 +334,7 @@ nav ul li:nth-child(6){
 }
 #styles>.container{
   width: 70%;
+  height: 100%;
   position: absolute;
   top: 5%;
   left: 50%;
@@ -375,6 +381,7 @@ nav ul li:nth-child(6){
 .page-footer .container{
   margin: 8px auto;
   position: absolute;
+  height: 100%;
   width: 100%;
   top: 5px;
   left: 50%;
@@ -422,13 +429,12 @@ nav ul li:nth-child(6){
   /* width: 16px; */
   width: 1rem;
   /* height: 17px; */
-  height: 1.0625rem;
+  height: 1rem;
 }
 
 
 
 /* smartphone */
-
 @media screen and (max-width:600px){
   /* #main */
   #main #contribute{
@@ -437,9 +443,17 @@ nav ul li:nth-child(6){
   #main #contribute> .container:nth-child(1){
     /* width: 80%; */
     top: 5%;
+    height: 100%;
   }
   #main #contribute >.container:nth-child(2){
     top: 39%;
+    height: 100%;
+  }
+  #main #contribute #files{
+    top: 75%;
+  }
+  #main #contribute #files> .container a{
+    font-size: 1rem;
   }
 
   /* .profile */
@@ -447,12 +461,22 @@ nav ul li:nth-child(6){
     height: 500px;
   }
   .profile>.container{
-    top: 15%;
+    top: 17%;
+    bottom: 0;
+    height: 100%;
+    margin: 0 auto;
   }
   .profile>.container>h4 {
-    /* font-size: 2.5rem; */
-    /* text-align: center; */
-    margin-bottom: 10px;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .profile>.container ul{
+    flex-direction: column;
+  }
+  .profile>.container ul li{
+    margin: 10px auto;
+    font-size: 1.2rem;
   }
 
   /* #style */
@@ -461,21 +485,28 @@ nav ul li:nth-child(6){
   }
   #styles>.container{
     top: 0;
+    height: 100%;
   }
   #style>.container>h2 {
-    /* font-size: 2.5rem; */
-    /* text-align: center; */
-    margin-bottom: 10px;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  #styles>.container ul{
+    flex-direction: column;
   }
   #styles>.container ul li{
     margin: 10px auto;
+    font-size: 1.2rem;
   }
 
+  /* .page-footer */
   .page-footer{
     height: 380px;
   }
   .page-footer .container{
     width: 80%;
+    height: 100%;
   }
   .page-footer .container ul li{
     margin: 5px auto;
