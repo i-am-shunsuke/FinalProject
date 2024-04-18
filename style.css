@@ -201,7 +201,7 @@ nav ul li:nth-child(6){
   /* width: 900px; */
   width: 80%;
   position: absolute;
-  top: 45px;
+  top: 3%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -222,7 +222,7 @@ nav ul li:nth-child(6){
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 315px;
+  top: 30%;
   text-align: center;
   height: calc(900px / 3);
 }
@@ -249,7 +249,7 @@ nav ul li:nth-child(6){
   left: 50%;
   transform: translateX(-50%);
   /* top: 60%; */
-  bottom: 0px;
+  bottom: 0;
   text-align: center;
   height: calc(900px / 3);
   margin-top: 30px;
@@ -272,20 +272,20 @@ nav ul li:nth-child(6){
   border-image-width: 0px;
   border-image-repeat: stretch;
   /* border-right:10px; */
-  height: calc(800px/2);
+  height: calc(750px/2);
   position: relative;
 }
 .profile>.container{
   width: 70%;
   position: absolute;
-  top: 50px;
+  top: 5%;
   left: 50%;
   transform: translateX(-50%);
 }
 .profile>.container>h4{
   font-size: 2.5rem;
   text-align: center;
-  /* margin-top: 3px; */
+  margin-bottom: 20px;
 }
 .profile>.container ul{
   list-style: none;
@@ -297,8 +297,8 @@ nav ul li:nth-child(6){
 }
 .profile>.container ul li{
   font-size: 1.8rem;
-  padding: 15px;
-  /* margin: 15px; */
+  padding: 0;
+  margin: 15px;
   /* margin: 10px 25px; */
 }
 .profile>.container> a{
@@ -324,19 +324,20 @@ nav ul li:nth-child(6){
   border-image-slice: 0 0 0 0 fill;
   border-image-width: 0px;
   border-image-repeat: stretch;
-  height: calc(800px/2);
+  height: calc(750px/2);
   position: relative;
 }
 #styles>.container{
   width: 70%;
   position: absolute;
-  top: 35px;
+  top: 5%;
   left: 50%;
   transform: translateX(-50%);
 }
-#styles>.container>h4{
+#styles>.container>h2{
   font-size: 2.5rem;
   text-align: center;
+  margin-bottom: 20px;
 }
 #styles>.container ul{
   list-style: none;
@@ -348,7 +349,8 @@ nav ul li:nth-child(6){
 }
 #styles>.container ul li{
   font-size: 1.8rem;
-  padding: 15px;
+  padding: 0;
+  margin:15px;
 }
 #styles>.container>a{
   margin: 8px auto;
@@ -366,7 +368,7 @@ nav ul li:nth-child(6){
   background: #CC9966;
   margin: 0;
   padding: 0;
-  height: 300px;
+  height: 310px;
   position: relative;
   /* width: 100%; */
 }
@@ -383,11 +385,11 @@ nav ul li:nth-child(6){
 }
 .page-footer .container ul{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 .page-footer .container ul li{
   /* background: white; */
@@ -395,15 +397,19 @@ nav ul li:nth-child(6){
   /* padding: 15px; */
   /* width: 30px; */
   /* border-radius: 10px; */
-  margin: 10px 20px;
+  margin: 15px auto;
+  width: 200px;
 }
 .page-footer .container ul li a{
+
+  display: block;
+
   background: white;
   color: #CC9966;
   font-size: 1.2rem;
   text-align: center;
   width: 100%;
-  padding: 10px;
+  padding: 15px 10px;
   border-radius: 10px;
   /* width: calc(100%/4); */
 }
@@ -413,10 +419,69 @@ nav ul li:nth-child(6){
 }
 .page-footer .container ul li .link-github svg{
   fill: #CC9966; 
-  width: 20px;
-  height: 18px;
+  /* width: 16px; */
+  width: 1rem;
+  /* height: 17px; */
+  height: 1.0625rem;
 }
 
 
 
 /* smartphone */
+
+@media screen and (max-width:600px){
+  /* #main */
+  #main #contribute{
+    height: 1270px;
+  }
+  #main #contribute> .container:nth-child(1){
+    /* width: 80%; */
+    top: 5%;
+  }
+  #main #contribute >.container:nth-child(2){
+    top: 39%;
+  }
+
+  /* .profile */
+  .profile{
+    height: 500px;
+  }
+  .profile>.container{
+    top: 15%;
+  }
+  .profile>.container>h4 {
+    /* font-size: 2.5rem; */
+    /* text-align: center; */
+    margin-bottom: 10px;
+  }
+
+  /* #style */
+  #style{
+    height: 500px;
+  }
+  #styles>.container{
+    top: 0;
+  }
+  #style>.container>h2 {
+    /* font-size: 2.5rem; */
+    /* text-align: center; */
+    margin-bottom: 10px;
+  }
+  #styles>.container ul li{
+    margin: 10px auto;
+  }
+
+  .page-footer{
+    height: 380px;
+  }
+  .page-footer .container{
+    width: 80%;
+  }
+  .page-footer .container ul li{
+    margin: 5px auto;
+    width: 165px;
+  }
+  .page-footer .container ul li a{
+    padding: 10px 5px;
+  }
+}
