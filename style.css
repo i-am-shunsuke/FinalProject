@@ -404,9 +404,253 @@ nav ul li:nth-child(6){
   height: 1rem;
 }
 
-
-
 /* smartphone */
+/* tablet size */
+/* tablet size for 900px */
+@media screen and (max-width:900px){
+
+  /* #main */
+  #main #contribute{
+    height: 1180px;
+  }
+  #main #contribute> .container:nth-child(1){
+    top: 5%;
+  }
+  #main #contribute >.container:nth-child(2){
+    top: 35%;
+  }
+  #main #contribute #files{
+    top: 72%;
+  }
+  #main #contribute #files> .container a{
+    font-size: 1rem;
+    
+  }
+
+  /* .profile */
+  .profile{
+    height: 500px;
+  }
+  .profile>.container{
+    top: 17%;
+    bottom: 0;
+    margin: 0 auto;
+  }
+  .profile>.container>h4 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .profile>.container ul{
+    flex-direction: column;
+  }
+  .profile>.container ul li{
+    margin: 10px auto;
+    font-size: 1.2rem;
+  }
+
+  /* #style */
+  #style{
+    height: 500px;
+  }
+  #styles>.container{
+    top: 0;
+  }
+  #style>.container>h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  #styles>.container ul{
+    flex-direction: column;
+  }
+  #styles>.container ul li{
+    margin: 10px auto;
+    font-size: 1.2rem;
+  }
+
+  /* .page-footer */
+  .page-footer{
+    height: 345px;
+  }
+  .page-footer .container{
+    width: 80%;
+    height: 100%;
+    top: 0;
+  }
+  .page-footer .container ul li{
+    margin: 5px auto;
+    width: 165px;
+  }
+  .page-footer .container ul li a{
+    padding: 10px 5px;
+  }
+}
+
+
+/* tablet size for 800px */
+@media screen and (max-width:800px){
+
+  /* #main */
+  #main #contribute{
+    height: 1180px;
+  }
+  #main #contribute> .container:nth-child(1){
+    top: 5%;
+  }
+  #main #contribute >.container:nth-child(2){
+    top: 35%;
+  }
+  #main #contribute #files{
+    top: 72%;
+  }
+  #main #contribute #files> .container a{
+    font-size: 1rem;
+    
+  }
+
+  /* .profile */
+  .profile{
+    height: 500px;
+  }
+  .profile>.container{
+    top: 17%;
+    bottom: 0;
+    margin: 0 auto;
+  }
+  .profile>.container>h4 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .profile>.container ul{
+    flex-direction: column;
+  }
+  .profile>.container ul li{
+    margin: 10px auto;
+    font-size: 1.2rem;
+  }
+
+  /* #style */
+  #style{
+    height: 500px;
+  }
+  #styles>.container{
+    top: 0;
+  }
+  #style>.container>h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  #styles>.container ul{
+    flex-direction: column;
+  }
+  #styles>.container ul li{
+    margin: 10px auto;
+    font-size: 1.2rem;
+  }
+
+  /* .page-footer */
+  .page-footer{
+    height: 345px;
+  }
+  .page-footer .container{
+    width: 80%;
+    height: 100%;
+    top: 0;
+  }
+  .page-footer .container ul li{
+    margin: 5px auto;
+    width: 165px;
+  }
+  .page-footer .container ul li a{
+    padding: 10px 5px;
+  }
+}
+
+/* smartphone size for 700px */
+@media screen and (max-width:700px){
+
+  /* #main */
+  #main #contribute{
+    height: 1180px;
+  }
+  #main #contribute> .container:nth-child(1){
+    top: 5%;
+  }
+  #main #contribute >.container:nth-child(2){
+    top: 35%;
+  }
+  #main #contribute #files{
+    top: 72%;
+  }
+  #main #contribute #files> .container a{
+    font-size: 1rem;
+    
+  }
+
+  /* .profile */
+  .profile{
+    height: 500px;
+  }
+  .profile>.container{
+    top: 17%;
+    bottom: 0;
+    margin: 0 auto;
+  }
+  .profile>.container>h4 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .profile>.container ul{
+    flex-direction: column;
+  }
+  .profile>.container ul li{
+    margin: 10px auto;
+    font-size: 1.2rem;
+  }
+
+  /* #style */
+  #style{
+    height: 500px;
+  }
+  #styles>.container{
+    top: 0;
+  }
+  #style>.container>h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  #styles>.container ul{
+    flex-direction: column;
+  }
+  #styles>.container ul li{
+    margin: 10px auto;
+    font-size: 1.2rem;
+  }
+
+  /* .page-footer */
+  .page-footer{
+    height: 345px;
+  }
+  .page-footer .container{
+    width: 80%;
+    height: 100%;
+    top: 0;
+  }
+  .page-footer .container ul li{
+    margin: 5px auto;
+    width: 165px;
+  }
+  .page-footer .container ul li a{
+    padding: 10px 5px;
+  }
+}
+
+/* smartphone size for 600px */
 @media screen and (max-width:600px){
 
   /* #main */
@@ -474,6 +718,169 @@ nav ul li:nth-child(6){
   }
   .page-footer .container{
     width: 80%;
+    height: 100%;
+  }
+  .page-footer .container ul li{
+    margin: 5px auto;
+    width: 165px;
+  }
+  .page-footer .container ul li a{
+    padding: 10px 5px;
+  }
+}
+
+/* smartphone size for 500px */
+@media screen and (max-width:500px){
+
+  /* #main */
+  #main #contribute{
+    height: 1450px;
+  }
+  #main #contribute> .container:nth-child(1){
+    top: 5%;
+  }
+  #main #contribute >.container:nth-child(2){
+    top: 39%;
+  }
+  #main #contribute #files{
+    top: 75%;
+  }
+  #main #contribute #files> .container a{
+    font-size: 1rem;
+  }
+
+  /* .profile */
+  .profile{
+    height: 500px;
+  }
+  .profile>.container{
+    top: 17%;
+    bottom: 0;
+    margin: 0 auto;
+  }
+  .profile>.container>h4 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .profile>.container ul{
+    flex-direction: column;
+  }
+  .profile>.container ul li{
+    margin: 10px auto;
+    font-size: 1.2rem;
+  }
+
+  /* #style */
+  #style{
+    height: 500px;
+  }
+  #styles>.container{
+    top: 0;
+  }
+  #style>.container>h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  #styles>.container ul{
+    flex-direction: column;
+  }
+  #styles>.container ul li{
+    margin: 10px auto;
+    font-size: 1.2rem;
+  }
+
+  /* .page-footer */
+  .page-footer{
+    height: 400px;
+  }
+  .page-footer .container{
+    width: 80%;
+    height: 100%;
+  }
+  .page-footer .container ul li{
+    margin: 5px auto;
+    width: 165px;
+  }
+  .page-footer .container ul li a{
+    padding: 10px 5px;
+  }
+}
+
+/* smartphone size for 400px */
+@media screen and (max-width:400px){
+
+  /* #main */
+  #main #contribute{
+    height: 1470px;
+  }
+  #main #contribute> .container:nth-child(1){
+    top: 5%;
+  }
+  #main #contribute >.container:nth-child(2){
+    top: 40%;
+  }
+  #main #contribute #files{
+    top: 78%;
+  }
+  #main #contribute #files> .container a{
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* .profile */
+  .profile{
+    height: 500px;
+  }
+  .profile>.container{
+    top: 17%;
+    bottom: 0;
+    margin: 0 auto;
+  }
+  .profile>.container>h4 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .profile>.container ul{
+    flex-direction: column;
+  }
+  .profile>.container ul li{
+    margin: 10px auto;
+    font-size: 1.2rem;
+  }
+
+  /* #style */
+  #style{
+    height: 500px;
+  }
+  #styles>.container{
+    top: 0;
+  }
+  #style>.container>h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  #styles>.container ul{
+    flex-direction: column;
+  }
+  #styles>.container ul li{
+    margin: 10px auto;
+    font-size: 1.2rem;
+  }
+
+  /* .page-footer */
+  .page-footer{
+    height: 560px;
+  }
+  .page-footer .container{
+    width: 80%;
+    height: 100%;
   }
   .page-footer .container ul li{
     margin: 5px auto;
