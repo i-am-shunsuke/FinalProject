@@ -733,6 +733,10 @@ nav ul li:nth-child(6){
 @media screen and (max-width:500px){
 
   /* #main */
+  #main #about{
+    background-image: none;
+    
+  }
   #main #contribute{
     height: 1630px;
   }
@@ -812,6 +816,9 @@ nav ul li:nth-child(6){
 @media screen and (max-width:400px){
 
   /* #main */
+  #main #about{
+    background-image: none;
+  }
   #main #contribute{
     height: 1600px;
   }
