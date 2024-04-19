@@ -822,7 +822,7 @@ nav ul li:nth-child(6){
     top: 40%;
   }
   #main #contribute #files{
-    top: 78%;
+    bottom: 0;
   }
   #main #contribute #files> .container a{
     font-size: 1rem;
